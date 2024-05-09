@@ -1,0 +1,32 @@
+.barrita-nav {
+    background-color: $azul-pastel;
+    display: flex;
+
+    .logo {
+        img {
+            width: 400px;
+            height: 150px;
+        }
+
+    }
+
+
+
+    .titulo {
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            padding: 35px 35px;
+            transform: translate(100px);
+        }
+    }
+
+    .imagen-relleno {
+
+        img {
+            width: 400px;
+            height: 150px;
+            transform: translate(190px);
+        }
+    }
+}
