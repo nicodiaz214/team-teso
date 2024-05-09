@@ -1,0 +1,36 @@
+.tareas-stylebase {
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        padding: 35px;
+        color: $celeste-normalito;
+        border-style: double;
+        border-radius: 15px;
+    }
+    ul {
+        padding: 30px 30px;
+     li {
+        color: $celeste-normalito;
+        padding: 15px;
+        font-size: 25px;
+     }
+    }
+}
+
+.tareas-styleparticulares {
+    h3 {
+        font-size: 30px;
+        text-align: center;
+        padding: 35px;
+        color: $celeste-normalito;
+        border-radius: 15px;
+    }
+    ul {
+        padding: 30px 30px;
+     li {
+        color: $celeste-normalito;
+        padding: 15px;
+        font-size: 20px;
+     }
+    }
+}

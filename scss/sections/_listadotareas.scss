@@ -1,0 +1,39 @@
+.detalle-tareas {
+    .tareas-lineamientos {
+        @extend .tareas-stylebase;
+    }
+
+    .tareas-kari {
+        @extend .tareas-styleparticulares;
+    }
+
+    .tareas-marie {
+        @extend .tareas-styleparticulares;
+    }
+
+    .tareas-oswald {
+        @extend .tareas-styleparticulares;
+    }
+
+    .tareas-toto {
+        @extend .tareas-styleparticulares;
+    }
+
+    .tareas-bauti {
+        @extend .tareas-styleparticulares;
+    }
+
+    .tareas-nico {
+        @extend .tareas-styleparticulares;
+    }
+
+    .tareas-flor {
+        @extend .tareas-styleparticulares;
+    }
+
+    .tareas-ami {
+        @extend .tareas-styleparticulares;
+    }
+
+
+}

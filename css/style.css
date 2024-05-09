@@ -1,3 +1,32 @@
+.tareas-stylebase h2, .detalle-tareas .tareas-lineamientos h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 35px;
+  color: #DCCCFF;
+  border-style: double;
+  border-radius: 15px; }
+
+.tareas-stylebase ul, .detalle-tareas .tareas-lineamientos ul {
+  padding: 30px 30px; }
+  .tareas-stylebase ul li, .detalle-tareas .tareas-lineamientos ul li {
+    color: #DCCCFF;
+    padding: 15px;
+    font-size: 25px; }
+
+.tareas-styleparticulares h3, .detalle-tareas .tareas-kari h3, .detalle-tareas .tareas-marie h3, .detalle-tareas .tareas-oswald h3, .detalle-tareas .tareas-toto h3, .detalle-tareas .tareas-bauti h3, .detalle-tareas .tareas-nico h3, .detalle-tareas .tareas-flor h3, .detalle-tareas .tareas-ami h3 {
+  font-size: 30px;
+  text-align: center;
+  padding: 35px;
+  color: #DCCCFF;
+  border-radius: 15px; }
+
+.tareas-styleparticulares ul, .detalle-tareas .tareas-kari ul, .detalle-tareas .tareas-marie ul, .detalle-tareas .tareas-oswald ul, .detalle-tareas .tareas-toto ul, .detalle-tareas .tareas-bauti ul, .detalle-tareas .tareas-nico ul, .detalle-tareas .tareas-flor ul, .detalle-tareas .tareas-ami ul {
+  padding: 30px 30px; }
+  .tareas-styleparticulares ul li, .detalle-tareas .tareas-kari ul li, .detalle-tareas .tareas-marie ul li, .detalle-tareas .tareas-oswald ul li, .detalle-tareas .tareas-toto ul li, .detalle-tareas .tareas-bauti ul li, .detalle-tareas .tareas-nico ul li, .detalle-tareas .tareas-flor ul li, .detalle-tareas .tareas-ami ul li {
+    color: #DCCCFF;
+    padding: 15px;
+    font-size: 20px; }
+
 * {
   padding: 0;
   margin: 0;
@@ -18,3 +47,25 @@
     width: 400px;
     height: 150px;
     transform: translate(190px); }
+
+main {
+  background-color: #161B33;
+  padding: 20px 20px; }
+  main .division-tareas h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    color: #C9E4CA; }
+  main .division-tareas .lista-btn-nombres {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px; }
+    main .division-tareas .lista-btn-nombres .btn-nombres {
+      padding: 5px;
+      background-color: #0D0C1D; }
+      main .division-tareas .lista-btn-nombres .btn-nombres a {
+        color: #C9E4CA;
+        text-decoration: none;
+        font-size: 25px; }
