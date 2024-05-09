@@ -1,11 +1,11 @@
 .barrita-nav {
-    background-color: $azul-pastel;
+    background-image: linear-gradient($azul-pastel, $azul-oscuro);
     display: flex;
 
     .logo {
         img {
-            width: 400px;
-            height: 150px;
+            width: 300px;
+            height: 100px;
         }
 
     }
@@ -17,16 +17,9 @@
             font-size: 50px;
             text-align: center;
             padding: 35px 35px;
-            transform: translate(100px);
+            color: $celeste-cielo;
+
         }
     }
 
-    .imagen-relleno {
-
-        img {
-            width: 400px;
-            height: 150px;
-            transform: translate(190px);
-        }
-    }
 }

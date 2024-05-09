@@ -1,7 +1,7 @@
 .tareas-stylebase h2, .detalle-tareas .tareas-lineamientos h2 {
   font-size: 40px;
   text-align: center;
-  padding: 35px;
+  padding: 15px;
   color: #DCCCFF;
   border-style: double;
   border-radius: 15px; }
@@ -33,20 +33,16 @@
   box-sizing: border-box; }
 
 .barrita-nav {
-  background-color: #474973;
+  background-image: linear-gradient(#474973, #161B33);
   display: flex; }
   .barrita-nav .logo img {
-    width: 400px;
-    height: 150px; }
+    width: 300px;
+    height: 100px; }
   .barrita-nav .titulo h1 {
     font-size: 50px;
     text-align: center;
     padding: 35px 35px;
-    transform: translate(100px); }
-  .barrita-nav .imagen-relleno img {
-    width: 400px;
-    height: 150px;
-    transform: translate(190px); }
+    color: #C9E4CA; }
 
 main {
   background-color: #161B33;
@@ -64,8 +60,29 @@ main {
     padding: 20px; }
     main .division-tareas .lista-btn-nombres .btn-nombres {
       padding: 5px;
-      background-color: #0D0C1D; }
+      background-color: #0D0C1D;
+      border-radius: 15px; }
       main .division-tareas .lista-btn-nombres .btn-nombres a {
         color: #C9E4CA;
         text-decoration: none;
+        padding: 15px;
         font-size: 25px; }
+        main .division-tareas .lista-btn-nombres .btn-nombres a:hover {
+          color: #474973; }
+  main .boton-sticky {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 73%;
+    transform: translate(1200px); }
+    main .boton-sticky button {
+      padding: 5px;
+      background-color: #0D0C1D;
+      border-radius: 15px; }
+      main .boton-sticky button a {
+        color: #C9E4CA;
+        text-decoration: none;
+        padding: 15px;
+        font-size: 25px; }
+        main .boton-sticky button a:hover {
+          color: #474973; }

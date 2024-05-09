@@ -21,11 +21,43 @@ main {
             .btn-nombres {
                 padding: 5px;
                 background-color: $azul-noche;
+                border-radius: 15px;
 
                 a {
                     color: $celeste-cielo;
                     text-decoration: none;
+                    padding: 15px;
                     font-size: 25px;
+
+                    &:hover {
+                        color: $azul-pastel;
+                    }
+                }
+            }
+        }
+    }
+
+    .boton-sticky {
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        top: 73%;
+        transform: translate(1200px);
+
+        button {
+            padding: 5px;
+            background-color: $azul-noche;
+            border-radius: 15px;
+            
+
+            a {
+                color: $celeste-cielo;
+                text-decoration: none;
+                padding: 15px;
+                font-size: 25px;
+
+                &:hover {
+                    color: $azul-pastel;
                 }
             }
         }
