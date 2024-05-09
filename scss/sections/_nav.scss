@@ -1,6 +1,7 @@
 .barrita-nav {
     background-image: linear-gradient($azul-pastel, $azul-oscuro);
     display: flex;
+    flex-wrap: wrap;
 
     .logo {
         img {

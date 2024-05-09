@@ -38,7 +38,8 @@
 
 .barrita-nav {
   background-image: linear-gradient(#474973, #161B33);
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
   .barrita-nav .logo img {
     width: 300px;
     height: 100px; }
