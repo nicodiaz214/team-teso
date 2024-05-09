@@ -4,8 +4,9 @@ main {
 
     .division-tareas {
         h2 {
+            font-family: "Permanent Marker", cursive;
             text-align: center;
-            font-size: 40px;
+            font-size: 60px;
             padding: 20px;
             color: $celeste-cielo;
 
@@ -24,10 +25,11 @@ main {
                 border-radius: 15px;
 
                 a {
+                    font-family: "Indie Flower", cursive;
                     color: $celeste-cielo;
                     text-decoration: none;
                     padding: 15px;
-                    font-size: 25px;
+                    font-size: 40px;
 
                     &:hover {
                         color: $azul-pastel;
@@ -51,10 +53,11 @@ main {
             
 
             a {
+                font-family: "Indie Flower", cursive;
                 color: $celeste-cielo;
                 text-decoration: none;
                 padding: 15px;
-                font-size: 25px;
+                font-size: 35px;
 
                 &:hover {
                     color: $azul-pastel;

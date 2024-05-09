@@ -1,5 +1,6 @@
 .tareas-stylebase h2, .detalle-tareas .tareas-lineamientos h2 {
-  font-size: 40px;
+  font-family: "Caveat", cursive;
+  font-size: 60px;
   text-align: center;
   padding: 15px;
   color: #DCCCFF;
@@ -14,10 +15,13 @@
     font-size: 25px; }
 
 .tareas-styleparticulares h3, .detalle-tareas .tareas-kari h3, .detalle-tareas .tareas-marie h3, .detalle-tareas .tareas-oswald h3, .detalle-tareas .tareas-toto h3, .detalle-tareas .tareas-bauti h3, .detalle-tareas .tareas-nico h3, .detalle-tareas .tareas-flor h3, .detalle-tareas .tareas-ami h3 {
-  font-size: 30px;
+  background-color: #0D0C1D;
+  font-family: "Indie Flower", cursive;
+  font-size: 60px;
   text-align: center;
   padding: 35px;
   color: #DCCCFF;
+  border-style: groove;
   border-radius: 15px; }
 
 .tareas-styleparticulares ul, .detalle-tareas .tareas-kari ul, .detalle-tareas .tareas-marie ul, .detalle-tareas .tareas-oswald ul, .detalle-tareas .tareas-toto ul, .detalle-tareas .tareas-bauti ul, .detalle-tareas .tareas-nico ul, .detalle-tareas .tareas-flor ul, .detalle-tareas .tareas-ami ul {
@@ -42,14 +46,16 @@
     font-size: 50px;
     text-align: center;
     padding: 35px 35px;
-    color: #C9E4CA; }
+    color: #C9E4CA;
+    font-family: "Permanent Marker", cursive; }
 
 main {
   background-color: #161B33;
   padding: 20px 20px; }
   main .division-tareas h2 {
+    font-family: "Permanent Marker", cursive;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     padding: 20px;
     color: #C9E4CA; }
   main .division-tareas .lista-btn-nombres {
@@ -63,10 +69,11 @@ main {
       background-color: #0D0C1D;
       border-radius: 15px; }
       main .division-tareas .lista-btn-nombres .btn-nombres a {
+        font-family: "Indie Flower", cursive;
         color: #C9E4CA;
         text-decoration: none;
         padding: 15px;
-        font-size: 25px; }
+        font-size: 40px; }
         main .division-tareas .lista-btn-nombres .btn-nombres a:hover {
           color: #474973; }
   main .boton-sticky {
@@ -80,9 +87,10 @@ main {
       background-color: #0D0C1D;
       border-radius: 15px; }
       main .boton-sticky button a {
+        font-family: "Indie Flower", cursive;
         color: #C9E4CA;
         text-decoration: none;
         padding: 15px;
-        font-size: 25px; }
+        font-size: 35px; }
         main .boton-sticky button a:hover {
           color: #474973; }
